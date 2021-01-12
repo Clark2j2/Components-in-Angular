@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { NotesComponent } from './notes/notes.component';
 import { FormsModule } from '@angular/forms';
+import { TimeComponent } from './time/time.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TasksComponent,
-    NotesComponent
+    NotesComponent,
+    TimeComponent
   ],
   imports: [
     BrowserModule,
